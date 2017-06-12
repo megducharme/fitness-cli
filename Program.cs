@@ -4,9 +4,16 @@ namespace ConsoleApplication
 {
     public class Program
     {
-        public static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            //Prompt the user for minutes exercised
+            Console.Write("Enter how many minutes you exercised: ");
+            string response = Console.ReadLine();
+            //Add minutes exercised to total
+            
+            //Display total minutes to the screen
+            
+            //Repeat until the user quits
         }
     }
 }
